@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Hệ thống bài tập Lập trình Web</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Thông tin cá nhân</title>
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
-<body>
 
-    <h1>Nhóm 9</h1>
+<body class="profile-page">
 
-    <div class="section">
-        <h2>1. Bài tập cá nhân</h2>
-        <div class="task-list">
-            <a href="NguyenThuyTrang/index.html">Nguyễn Thùy Trang</a>
-            <a href="AnhPhungThiQuynh/index.html">Phùng Thị Quỳnh Anh</a>
-            <a href="VuQuynhAnh/index.html">Vũ Quỳnh Anh</a>
-            <a href="TranThiKimChi/index.html">Trần Thị Kim Chi</a>
-        </div>
-    </div>
+    <header class="profile-hero">
+        <p class="profile-kicker">HỒ SƠ SINH VIÊN</p>
+        <h1>Nguyễn Thùy Trang</h1>
+        <p class="profile-intro">Một chút thông tin về mình và những điều mình yêu thích.</p>
+    </header>
 
+    <main class="profile-layout">
+        <section class="profile-card profile-photo-card">
+            <div class="photo-frame">
+                <img src="avartar.jpg" alt="Ảnh đại diện của Nguyễn Thùy Trang">
+            </div>
+            <h2>Thông tin cá nhân</h2>
+            <p class="profile-role">Sinh viên</p>
+        </section>
 
-    <div class="section">
-        <h2>2. Bài tập nhóm</h2>
-        <div class="task-list">
-            <a href="tasks/group/about.html">Bài tập</a>
-        </div>
-    </div>
+        <section class="profile-card profile-details">
+            <h2>Giới thiệu</h2>
+            <div class="detail-list">
+                <p><span>Họ và tên</span><strong>Nguyễn Thùy Trang</strong></p>
+                <p><span>Mã sinh viên</span><strong>24104398</strong></p>
+                <p><span>Ngày sinh</span><strong>09/05/2006</strong></p>
+                <p><span>Giới tính</span><strong>Nữ</strong></p>
+            </div>
+        </section>
+
+        <section class="profile-card profile-hobby">
+            <h2>Sở thích</h2>
+            <ul>
+                <li>Ngủ</li>
+            </ul>
+        </section>
+
+        <section class="profile-card profile-strength">
+            <h2>Sở trường</h2>
+            <p>Ngủ too</p>
+        </section>
+    </main>
+
 </body>
 </html>
-
